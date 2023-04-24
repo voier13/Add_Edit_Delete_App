@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box; /* для изменения алгоритма расчёта ширины и высоты элемента */
+  margin: 0px; /* отступ */
+  padding: 0px;  
+  font-family: Arial, Helvetica, sans-serif;
+}
