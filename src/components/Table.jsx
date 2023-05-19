@@ -3,8 +3,8 @@ import {BsFillTrashFill,BsFillPencilFill} from 'react-icons/bs';
 import './Table.css';
 
 export const Table = ({ rows, deleteRow, editRow }) =>{
-    return <div className="table">
-        <table className="table-wrapper">
+    return <div className="table-wrapper">
+        <table className="table">
             <thead>
                 <tr>
                     <th>Page</th>
@@ -13,7 +13,7 @@ export const Table = ({ rows, deleteRow, editRow }) =>{
                     <th>Actions</th>
                 </tr>
             </thead>
-
+ 
             <tbody>
             { 
                 rows.map((row ,idx) => {

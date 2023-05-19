@@ -5,7 +5,7 @@
 .table {
     display: block;
     overflow: hidden;
-    table-layout: auto;
+    table-layout: fixed;
     border-collapse: collapse;
     box-shadow: 0px 10px 10px #ccc;
     border-radius: 10px;

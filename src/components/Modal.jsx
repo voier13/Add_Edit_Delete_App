@@ -68,7 +68,7 @@ export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
                         <select name="status" value={formState.status} onChange={handleChange}>
                             <option value="live">Live</option>
                             <option value="draft">Draft</option>
-                            <option value="erroe">Error</option>
+                            <option value="error">Error</option>
                         </select>
                     </div>
 
